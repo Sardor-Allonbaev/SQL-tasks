@@ -1,0 +1,72 @@
+python=# DELETE FROM Car8 WHERE car_model_year < 2005;
+DELETE 434
+python=# SELECT * FROM Car8;
+   car_make    |      car_model      | car_model_year |      car_vin      | car_price
+---------------+---------------------+----------------+-------------------+-----------
+ Volvo         | XC90                |           2005 | 1G6DH577980833532 |      1794
+ Pontiac       | Grand Am            |           2008 | WUARL48H84K239972 |      2095
+ Ford          | Econoline E350      |           2007 | WBA3N5C59EK518961 |      2156
+ Chevrolet     | Cobalt              |           2008 | 5NPEB4AC3CH705754 |      9529
+ Saab          | 9-3                 |           2007 | WAURFAFR6EA290065 |      2147
+ Cadillac      | Escalade EXT        |           2007 | 3C6TD4DT0CG958947 |      5042
+ Ford          | E350                |           2008 | 5N1CL0MM6EC287508 |      4190
+ Volvo         | XC90                |           2007 | WBAUP9C59BV537378 |      4687
+ Lexus         | LX                  |           2006 | WP1AE2A24CL550317 |      1900
+ Ford          | Expedition EL       |           2008 | 2T1KE4EE4AC805822 |      1180
+ Bentley       | Continental GTC     |           2006 | WAUKGBFB7AN521985 |      2463
+ Dodge         | Ram 1500            |           2008 | 1FTEW1CMXCK849101 |      8005
+ Ford          | Escort              |           2008 | WA1WMBFE6AD090448 |      6318
+ Dodge         | Grand Caravan       |           2007 | SCFFDAAM1DG291922 |      7424
+ Ford          | F-Series Super Duty |           2006 | 1N6AF0KYXEN283486 |      3311
+ Land Rover    | Freelander          |           2007 | WAU4GAFB5AN022606 |      2811
+ Dodge         | Ram 2500            |           2008 | WAURD68DX1A592702 |      9773
+ Mazda         | MPV                 |           2008 | 1FTEX1E80AF329640 |      6398
+ Jeep          | Liberty             |           2005 | 1NXBU4EE4AZ422271 |      3971
+ GMC           | 1500 Club Coupe     |           2007 | 1FT7W2A62EE763186 |      7112
+ Chevrolet     | Lumina              |           2005 | 2C3CDXBGXFH086012 |      4178
+ Kia           | Sportage            |           2007 | 5N1AT2ML0FC947781 |      4881
+ Volkswagen    | Corrado             |           2005 | 5TDDK3DC6BS827079 |      4638
+ Mercury       | Sable               |           2008 | 1VWAS7A30FC026344 |      4786
+ Mazda         | B-Series            |           2008 | SCFFDCBD5CG649970 |      3477
+ Ford          | Escort              |           2005 | 1G6KD57Y32U364479 |      3805
+ Fairthorpe    | Rockette            |           2005 | SALVN2BG4FH997732 |      3914
+ Mercedes-Benz | SLK-Class           |           2005 | WAUBNBFB2AN130152 |      4599
+ Mazda         | 626                 |           2007 | WBABS534X2E025490 |      1819
+ Maybach       | Landaulet           |           2006 | 5UXFG4C52AL469481 |      8734
+ Cadillac      | Eldorado            |           2007 | WBAUC7C58AV014917 |      7152
+ GMC           | Savana 1500         |           2005 | WDDHF0EB4FB020170 |      6690
+ Scion         | xB                  |           2007 | WBAUT9C59AA084803 |      7961
+ Subaru        | Baja                |           2006 | JN8AZ1MU0AW756055 |      9425
+ Acura         | Integra             |           2007 | YV126MFC5F1777951 |      8716
+ Chevrolet     | Silverado 3500      |           2006 | 3C4PDDAG5ET975240 |      2172
+ Mazda         | Mazdaspeed 3        |           2006 | 5GAKVAKD8EJ725977 |      1087
+ Lincoln       | Mark VII            |           2006 | 2FMGK5B83EB537338 |      6552
+ Bentley       | Arnage              |           2005 | 5FPYK1F5XEB915220 |      6291
+ Volvo         | V70                 |           2005 | 1N4AL2AP7AC640246 |      1328
+ Cadillac      | Escalade            |           2005 | SCFBB03B97G056716 |      7917
+ Mitsubishi    | Raider              |           2007 | WBAEN33434P198493 |      4500
+ Volkswagen    | Jetta               |           2008 | 1FTEX1C85AK821557 |      6500
+ Mercury       | Sable               |           2007 | WBALM7C50AE090382 |      4305
+ Mercury       | Milan               |           2007 | WAUMFAFR4EA788307 |      7977
+ Mercury       | Grand Marquis       |           2007 | 2HNYD18796H981748 |      4775
+ Maybach       | 62                  |           2006 | 1FTWW3B54AE854056 |      6889
+ Ford          | Escape              |           2005 | JHMFA3F24BS505532 |      2937
+ GMC           | Sonoma              |           2007 | JN1CV6FE4EM115028 |      1872
+ Chevrolet     | Camaro              |           2008 | SCFFDABE8BG068877 |      5361
+ Chevrolet     | Suburban 2500       |           2008 | WA1CV94L69D572908 |      2693
+ Subaru        | Outback             |           2005 | KMHHT6KD1BU108373 |      3211
+ Nissan        | Sentra              |           2008 | JN8CS1MUXEM030749 |      7465
+ Mercury       | Cougar              |           2007 | 3C6JD7BP6CG956506 |      2036
+ Mercury       | Monterey            |           2007 | YV440MBD8F1967948 |      4994
+ Ford          | Bronco              |           2005 | 1B3CB5HA3BD884692 |      4973
+ Porsche       | Boxster             |           2006 | KNAFU6A28C5937331 |      9752
+ Saab          | 900                 |           2008 | WAUUL78E36A518430 |      9909
+ Mercury       | Capri               |           2006 | WAUVT68EX2A577872 |      7432
+ Nissan        | 300ZX               |           2006 | 1N6AA0CC7EN381098 |      6931
+ Toyota        | Sienna              |           2007 | 2B3CA5CT6AH641813 |      1504
+ Mercedes-Benz | 500E                |           2005 | 5NPEB4AC2DH882202 |      3029
+ Infiniti      | J                   |           2008 | WBAWB735X7P729237 |      5514
+ BMW           | X6                  |           2007 | WAUDF78E06A196305 |      7967
+ Acura         | Vigor               |           2005 | WBA6B4C52FD045829 |      2744
+ Ford          | F-Series Super Duty |           2005 | 5J6TF3H59FL825422 |      7244
+(66 rows)
