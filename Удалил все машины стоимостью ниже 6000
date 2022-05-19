@@ -1,0 +1,16 @@
+python=# DELETE FROM Car8 WHERE car_price < 6000;
+DELETE 272
+python=# SELECT * FROM Car8;
+   car_make    |      car_model       | car_model_year |      car_vin      | car_price
+---------------+----------------------+----------------+-------------------+-----------
+ Toyota        | Tacoma Xtra          |           1996 | 1J4RG4GK0AC602022 |      8067
+ Mitsubishi    | Lancer               |           1995 | WBA3N3C58EK725085 |      8667
+ GMC           | Sonoma               |           2002 | 1FTSW2B51AE899092 |      8668
+ Infiniti      | QX                   |           1991 | WBAVB33556P939151 |      6451
+ Oldsmobile    | Silhouette           |           1993 | WAUSGAFC8CN802960 |      8467
+ Lexus         | LS Hybrid            |           1990 | 1N6AF0LY4EN133369 |      9133
+ Cadillac      | Escalade ESV         |           1994 | WAU4FAFLXBA975784 |      8943
+ Honda         | Civic                |           1983 | 1D7RB1CT0AS005370 |      9730
+ Buick         | Century              |           1985 | WAUSF98K79A323080 |      6416
+ Ford          | F150                 |           2003 | 1G6DZ67A880032721 |      6381
+ MINI          | Cooper               |           1983 | SALFR2BG6EH333214 |      9660
